@@ -29,17 +29,17 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Anubhav</strong>
+              Hi! I'm <strong>Nikhil</strong>
               <br />
-              Web developer
+              N G Associates Cashflow Club
             </h2>
-            <p>I have made few things check it out.</p>
+            <p>Business Owner</p>
           </header>
 
           <footer>
             <Scroll type="id" element={'portfolio'}>
               <a href="#portfolio" className="button">
-                Show me
+                Learn more
               </a>
             </Scroll>
           </footer>
