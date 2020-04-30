@@ -1,11 +1,11 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import SideBar from '../components/SideBar';
+// import SideBar from '../components/SideBar';
 
 const IndexPage = () => (
   <Layout>
-    <SideBar />
+    {/* <SideBar /> */}
     <div id="wrapper">
       <div id="main">
         <section>

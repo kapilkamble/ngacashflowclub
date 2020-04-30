@@ -688,7 +688,7 @@
 /* Footer */
 
 	#footer {
-		margin-left: 375px;
+		// margin-left: 375px; Disabled Sidebar
 		text-align: center;
 		background-color: #dce3e2;
 		padding: 3em 0 4em 0;
@@ -718,7 +718,7 @@
 /* Main */
 
 	#main {
-		margin-left: 375px;
+		// margin-left: 375px; Disabled sidebar
 
 		> section {
 			margin: 0;
@@ -794,15 +794,15 @@
 
 		/* Footer */
 
-			#footer {
-				margin-left: 300px;
-			}
+			// #footer {
+			// 	margin-left: 300px; Disabled Sidebar
+			// }
 
 		/* Main */
 
-			#main {
-				margin-left: 300px;
-			}
+			// #main {
+			// 	 margin-left: 300px; Disabled Sidebar
+			// }
 
 	}
 
