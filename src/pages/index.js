@@ -2,15 +2,17 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import PageFooter from '../components/PageFooter';
+import Form from '../components/Form';
 // import SideBar from '../components/SideBar';
 
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
+import pic2 from '../assets/images/proj1.png';
+import pic3 from '../assets/images/prog1.jpg';
+import pic4 from '../assets/images/proj2.png';
+import pic5 from '../assets/images/fact1.jpg';
+import pic6 from '../assets/images/prog4.jpg';
+import pic7 from '../assets/images/fact2.jpg';
 import pic8 from '../assets/images/pic08.jpg';
+import stats1 from '../assets/images/stats1.jpg';
 import Scroll from '../components/Scroll';
 
 const sections = [
@@ -29,41 +31,73 @@ const IndexPage = () => (
         <div className="container">
           <header>
             <h2 className="alt">
-              Hi! I'm <strong>Nikhil</strong>
+            Tourism to be Next Big Industry in India
               <br />
-              N G Associates Cashflow Club
             </h2>
-            <p>Business Owner</p>
+            <p>INDIA is at third place in the new power ranking of the 2018 report of World Travel and Tourism Council (WTTC). It evaluates the performance of 185 countries over a seven year period (2011-2017). India’s revenue from travel and tourism stood at $234 billion. Tourism sector accounted for 10.4% of global GDP and 313 million jobs, accounting for 9.9% total employment in 2017.</p>
+            <a href="/#" className="image featured">
+              <img src={stats1} alt="" />
+            </a>
+            <p>The travel and tourism sector in India accounted for an estimated 12.38 percent of the total employment opportunities generated in the country in 2018. The share of indirect employment was 6.38 percent, almost one percent higher than the share of direct employment for the same year.</p>
           </header>
 
           <footer>
-            <Scroll type="id" element={'portfolio'}>
-              <a href="#portfolio" className="button">
-                Learn more
+            <Scroll type="id" element={'contact'}>
+              <a href="#contact" className="button">
+                Contact
               </a>
             </Scroll>
           </footer>
         </div>
       </section>
 
+      <section id="why" className="three">
+        <div className="container">
+          <header>
+            <h2>Why to Invest in TOURISM PROPERTIES?</h2>
+          </header>
+
+          <p>
+          As you can see, over 10 million foreign tourists arrived in India in 2017 compared to 8.89 million in 2016, representing a growth of 15.6%. Domestic tourists visits to all states and union territories numbered 1036.35 million in 2012, an increase of 16.5% from 2011.
+These tourists visits the tourism destinations in India having Wildlife tourism, Cultural tourism, Beach tourism, Pilgrimage tourism, Food tourism, Heritage tourism, Adventure tourism and various kinds.
+Tourists needs Homestays, Vacation Villas, Resorts to stay& relax, tocherrish the memories with their families. 
+You should invest in Tourism properties for more Cashflow& Multifold Appreciation rather than houses and flats as we consider the potential. We are not saying it, its proven for last many centuries. 
+Make your Rental Assets to get passive income on regular basis by investing in emerging stage of NGTP in tourism market, becauseTourism is the only recession free industry throughout the world from past 150 years.  
+Tourism properties are always Limited in finite area, so appreciation of any tourism property is always High with respect to the Cash On Cash Returns.
+Most of tourism destinations in India are mature enough with respect to market cycle, where you will either get insufficient land with high cost or No land.
+          </p>
+        </div>
+      </section>
+
+      <section id="where" className="three">
+        <div className="container">
+          <header>
+            <h2>Where will you get Opportunity to Invest?</h2>
+          </header>
+
+          <p>
+          As per our research, You have opportunity to invest in wildlife tourism properties near Todoba National Park, Maharashtra, India. Where, more than 30 lakh tourists visits every year for flora and fauna. International celebrities walks of life to catch the glimps of the tadoba tigers.
+          Tadoba is the largest and oldest national park in Maharashtra and awarded the best tiger state in sanctuary asia awards 2012.Tadoba has the fastest growing population of tigers in India and is arguably the best to spot a tiger in the world. 
+          </p>
+        </div>
+      </section>
+
+
       <section id="about" className="three">
         <div className="container">
           <header>
-            <h2>About Me</h2>
+            <h2>About Us</h2>
           </header>
 
-          <a href="/#" className="image featured">
+          {/* <a href="/#" className="image featured">
             <img src={pic8} alt="" />
-          </a>
+          </a> */}
 
           <p>
-            Developers football competition in diameter big price to layer the
-            pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-            aliquet eget a den of which they do not hold it in hatred developers
-            nor the mountains of the deposit slip. The element of time, sem ante
-            ullamcorper dolor nulla quam placerat viverra environment is not
-            with our customers. Free makeup and skirt until the mouse or
-            partners or to decorate each targeted.
+          NGTP hold by Mr. Nikhil Gautam (Civil engineer and Young Entrepreneur)
+NGTP is dedicated to eco-friendly & environment-friendly wildlife tourism properties to deliver the clients and investors for their Rental Asset Portfolio.
+NGTP and team have the experience of case studies on various tourism locations in India in wildlife tourism and beach tourism.
+Care for the nature, people and the society as a whole is one of our prime value.
           </p>
         </div>
       </section>
@@ -71,15 +105,28 @@ const IndexPage = () => (
       <section id="portfolio" className="two">
         <div className="container">
           <header>
-            <h2>Portfolio</h2>
+            <h2>Buy Property</h2>
           </header>
-
-          <p>
-            Life will feel it is always a great need for eu valley, the valley
-            CNN ridiculous smile at any time chat mainstream clinical homes.
-            Mauris floor was very warm and we need it. One customer now nibh
-            Bureau dark pools behavior.
-          </p>
+         <h3>Our Partner - Swarna Royal Estate</h3> 
+          <h4>Why Swarna Royal Estate?</h4>
+          <li>
+          India’s 1st and no. 1 company in tourism estate
+          </li>
+          <li>
+          8 years study in Tourism
+          </li>
+          <li>
+          Selection of location
+          </li>
+          <li>
+          Legal sanctions
+          </li>
+          <li>
+          Resort market like MIDC
+          </li>
+          <li>
+          Not only for sell but also real appreciation is the aim
+          </li><br/>
 
           <div className="row">
             <div className="col-4 col-12-mobile">
@@ -88,7 +135,7 @@ const IndexPage = () => (
                   <img src={pic2} alt="" />
                 </a>
                 <header>
-                  <h3>Ipsum Feugiat</h3>
+                  <h3>ALIZANJHA PROJECT</h3>
                 </header>
               </article>
               <article className="item">
@@ -96,7 +143,7 @@ const IndexPage = () => (
                   <img src={pic3} alt="" />
                 </a>
                 <header>
-                  <h3>Rhoncus Semper</h3>
+                  <h3>Progress</h3>
                 </header>
               </article>
             </div>
@@ -106,7 +153,7 @@ const IndexPage = () => (
                   <img src={pic4} alt="" />
                 </a>
                 <header>
-                  <h3>Magna Nullam</h3>
+                  <h3>TADOBA The Tiger Capital - HOMESTAY RESORT COTTAGES</h3>
                 </header>
               </article>
               <article className="item">
@@ -114,7 +161,7 @@ const IndexPage = () => (
                   <img src={pic5} alt="" />
                 </a>
                 <header>
-                  <h3>Natoque Vitae</h3>
+                  <h3>Fact and Figures</h3>
                 </header>
               </article>
             </div>
@@ -124,7 +171,7 @@ const IndexPage = () => (
                   <img src={pic6} alt="" />
                 </a>
                 <header>
-                  <h3>Dolor Penatibus</h3>
+                  <h3>Progress</h3>
                 </header>
               </article>
               <article className="item">
@@ -132,7 +179,7 @@ const IndexPage = () => (
                   <img src={pic7} alt="" />
                 </a>
                 <header>
-                  <h3>Orci Convallis</h3>
+                  <h3>Demand and Supply</h3>
                 </header>
               </article>
             </div>
@@ -147,14 +194,12 @@ const IndexPage = () => (
           </header>
 
           <p>
-            The element of time, sem ante ullamcorper dolor nulla quam placerat
-            viverra environment is not with our customers. Free makeup and skirt
-            until the mouse. Japan this innovative and ultricies carton salad
-            clinical ridiculous now passes from enhanced. Mauris pot innovative
-            care for my pain.
+          If you are interested, please contact us. 
+Hurry up and grab the opportunity to get your first rental asset this month. 
           </p>
 
-          <form method="post" data-netlify="true">
+          <Form/>
+          {/* <form method="post" data-netlify="true">
             <div className="row">
               <div className="col-6 col-12-mobile">
                 <input type="text" name="name" placeholder="Name" />
@@ -162,14 +207,14 @@ const IndexPage = () => (
               <div className="col-6 col-12-mobile">
                 <input type="text" name="email" placeholder="Email" />
               </div>
-              <div className="col-12">
+              { <div className="col-12">
                 <textarea name="message" placeholder="Message" />
-              </div>
+              </div> }
               <div className="col-12">
-                <input type="submit" value="Send Message" />
+                <input type="submit" value="Submit Message" />
               </div>
             </div>
-          </form>
+          </form> */}
         </div>
       </section>
     </div>
