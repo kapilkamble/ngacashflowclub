@@ -1,7 +1,7 @@
 module.exports = {
-  siteTitle: 'NG Associates Cashflow Club', // <title>
-  manifestName: 'Prologue',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'NG Tourism Properties', // <title>
+  manifestName: 'NGTP',
+  manifestShortName: 'NGTP', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
@@ -13,19 +13,19 @@ module.exports = {
   // social
   socialLinks: [
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/nikhilgautam',
+      icon: 'fa-instagram',
+      name: 'Instagram',
+      url: 'https://instagram.com/ngtourismproperties',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/nikhilgautam',
+      url: 'https://facebook.com/ngtourismproperties',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:nikhilgautam@gmail.com',
+      url: 'mailto:ngtourismproperties@gmail.com',
     },
   ],
 };
